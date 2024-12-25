@@ -20,3 +20,4 @@ WORKDIR /usr/share/nginx/html/
 COPY . .
 # Override the local source with the built artifacts
 COPY --from=export . . 
+EXPOSE 80
